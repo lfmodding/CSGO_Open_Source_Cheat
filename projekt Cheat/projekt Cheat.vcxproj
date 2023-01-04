@@ -30,6 +30,9 @@
     <ClCompile Include="source\Interfaces\interfaceManager.cpp" />
     <ClCompile Include="source\menu.cpp" />
     <ClCompile Include="source\NetVars\NetVarManager\NetVarManager.cpp" />
+    <ClCompile Include="source\SDK\math\math.cpp" />
+    <ClCompile Include="source\SDK\math\vec2.cpp" />
+    <ClCompile Include="source\SDK\math\vec4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\Dependencies\detours\detours.h" />
@@ -51,6 +54,13 @@
     <ClInclude Include="source\NetVars\NetVarManager\NetVarManager.h" />
     <ClInclude Include="source\SDK\ClientInterface.h" />
     <ClInclude Include="source\SDK\datatable.h" />
+    <ClInclude Include="source\SDK\EngineInterface.h" />
+    <ClInclude Include="source\SDK\math\math.h" />
+    <ClInclude Include="source\SDK\math\matrix.h" />
+    <ClInclude Include="source\SDK\math\qangle.h" />
+    <ClInclude Include="source\SDK\math\vec2.h" />
+    <ClInclude Include="source\SDK\math\vec3.h" />
+    <ClInclude Include="source\SDK\math\vec4.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
