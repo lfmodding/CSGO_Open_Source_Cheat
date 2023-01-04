@@ -1,8 +1,8 @@
-#include "Hooks/Dx9Hook.h"
+#include "core/Hooks/Dx9Hook.h"
 #include "globals.h"
 #include "menu.h"
-#include "NetVars/NetVarManager/NetVarManager.h"
-#include "Interfaces/interfaceManager.h"
+#include "core/NetVars/NetVarManager/NetVarManager.h"
+#include "core/Interfaces/interfaceManager.h"
 #include "globals.h"
 
 EndScene oEndScene = NULL;

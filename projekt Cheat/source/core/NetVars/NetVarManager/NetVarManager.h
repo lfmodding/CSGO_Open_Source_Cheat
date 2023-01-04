@@ -1,6 +1,6 @@
 #pragma once
-#include "..\..\SDK\datatable.h"
-#include "..\..\Dependencies\fnv.h"
+#include "..\..\..\SDK\datatable.h"
+#include "..\..\..\Dependencies\fnv.h"
 
 
 #include <iostream>

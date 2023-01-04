@@ -1,5 +1,5 @@
 #pragma once
-#include "..\NetVars\entity.h"
+#include "..\core\NetVars\entity.h"
 #include "datatable.h"
 
 class IClientEntityList

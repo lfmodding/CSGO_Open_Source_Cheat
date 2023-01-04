@@ -1,6 +1,6 @@
 #pragma once
 #include <Windows.h>
-#include "Interfaces/interfaces.h"
+#include "core/Interfaces/interfaces.h"
 
 inline HMODULE dllModule;
 

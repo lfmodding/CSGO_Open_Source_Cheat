@@ -18,7 +18,7 @@
     <ClCompile Include="source\dllmain.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="source\Hooks\Dx9Hook.cpp">
+    <ClCompile Include="source\core\Hooks\Dx9Hook.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="source\Dependencies\imgui\imgui.cpp">
@@ -42,10 +42,10 @@
     <ClCompile Include="source\menu.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="source\NetVars\NetVarManager\NetVarManager.cpp">
+    <ClCompile Include="source\core\NetVars\NetVarManager\NetVarManager.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="source\Interfaces\interfaceManager.cpp">
+    <ClCompile Include="source\core\Interfaces\interfaceManager.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="source\SDK\math\math.cpp">
@@ -59,7 +59,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\Hooks\Dx9Hook.h">
+    <ClInclude Include="source\core\Hooks\Dx9Hook.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="source\Dependencies\imgui\imconfig.h">
@@ -101,19 +101,19 @@
     <ClInclude Include="source\SDK\datatable.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="source\NetVars\entity.h">
+    <ClInclude Include="source\core\NetVars\entity.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="source\NetVars\NetVarManager\NetVarManager.h">
+    <ClInclude Include="source\core\NetVars\NetVarManager\NetVarManager.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="source\Dependencies\fnv.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="source\Interfaces\interfaceManager.h">
+    <ClInclude Include="source\core\Interfaces\interfaceManager.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="source\Interfaces\interfaces.h">
+    <ClInclude Include="source\core\Interfaces\interfaces.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="source\SDK\EngineInterface.h">

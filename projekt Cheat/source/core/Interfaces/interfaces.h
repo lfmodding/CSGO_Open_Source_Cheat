@@ -1,6 +1,6 @@
 #pragma once
-#include "..\SDK\ClientInterface.h"
-#include "..\SDK\EngineInterface.h"
+#include "..\..\SDK\ClientInterface.h"
+#include "..\..\SDK\EngineInterface.h"
 
 
 inline IClientEntityList* entityList = nullptr;

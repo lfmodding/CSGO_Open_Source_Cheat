@@ -1,6 +1,6 @@
 #include "netvarManager.h"
 
-#include "..\..\SDK\ClientInterface.h"
+#include "..\..\..\SDK\ClientInterface.h"
 
 #include "..\..\Interfaces\interfaces.h"
 

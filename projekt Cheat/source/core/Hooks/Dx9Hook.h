@@ -5,16 +5,16 @@
 #include <TlHelp32.h>
 #include <iostream>
 
-#include "../globals.h"
+#include "../../globals.h"
 
-#include "../Dependencies/imgui/imgui.h"
-#include "../Dependencies/imgui/imgui_impl_win32.h"
-#include "../Dependencies/imgui/imgui_impl_dx9.h"
+#include "../../Dependencies/imgui/imgui.h"
+#include "../../Dependencies/imgui/imgui_impl_win32.h"
+#include "../../Dependencies/imgui/imgui_impl_dx9.h"
 
 #pragma comment(lib, "d3d9.lib")
 #pragma comment(lib, "d3dx9.lib")
 
-#include "../Dependencies/detours/detours.h"
+#include "../../Dependencies/detours/detours.h"
 #pragma comment(lib, "detours.lib")
 
 extern LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);

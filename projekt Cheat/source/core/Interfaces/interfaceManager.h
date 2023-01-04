@@ -5,10 +5,10 @@
 #include <format>
 #include <unordered_map>
 
-#include "..\SDK\ClientInterface.h"
-#include "..\SDK\EngineInterface.h"
+#include "..\..\SDK\ClientInterface.h"
+#include "..\..\SDK\EngineInterface.h"
 
-#include "..\Dependencies\fnv.h"
+#include "..\..\Dependencies\fnv.h"
 #include "interfaces.h"
 
 inline std::unordered_map<std::uint32_t, std::string> Interfaces;
