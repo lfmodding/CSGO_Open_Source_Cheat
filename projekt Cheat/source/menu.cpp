@@ -6,8 +6,14 @@ void menu::render()
 {
 	ImGui::Begin("Projekt Cheat");
 
-	if (entityList->GetClientEntity(1)->health())
-		ImGui::Value("ent1 health: ", entityList->GetClientEntity(1)->health());
+	if (entityList)
+	{
+		if (entityList->GetClientEntity(1))
+		{
+			if (entityList->GetClientEntity(1)->health())
+				ImGui::Value("ent1 health: ", entityList->GetClientEntity(1)->health());
+		}
+	}
 
 	ImGui::End();
 }
