@@ -109,6 +109,7 @@ void InitInterfaces()
 {
 	entityList = GetInterface<IClientEntityList>("VClientEntityList", "client.dll");
 	client = GetInterface<IClient>("VClient", "client.dll");
+	engineClient = GetInterface<IVEngineClient>("VEngineClient", "engine.dll");
 }
 
 bool InterfaceManager::SetupInterfaces()

@@ -6,6 +6,8 @@
 #include <unordered_map>
 
 #include "..\SDK\ClientInterface.h"
+#include "..\SDK\EngineInterface.h"
+
 #include "..\Dependencies\fnv.h"
 #include "interfaces.h"
 
