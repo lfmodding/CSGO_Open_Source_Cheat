@@ -2,6 +2,7 @@
 #include "globals.h"
 #include "menu.h"
 #include "NetVars/NetVarManager/NetVarManager.h"
+#include "Interfaces/interfaceManager.h"
 
 EndScene oEndScene = NULL;
 
@@ -14,8 +15,13 @@ long __stdcall hkEndScene(LPDIRECT3DDEVICE9 pDevice)
 
     DX9Hook::EndFrame();
 
+    if (GetAsyncKeyState(VK_END))
+        FreeConsole();
+
     return oEndScene(pDevice);
 }
+
+
 
 
 BOOL APIENTRY DllMain( HMODULE hModule,
@@ -27,6 +33,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     {
     case DLL_PROCESS_ATTACH:
         dllModule = hModule;
+        InterfaceManager::SetupInterfaces();
         SetupNetvars();
         DX9Hook::SetupHook(&oEndScene, &hkEndScene);
         DisableThreadLibraryCalls(hModule);

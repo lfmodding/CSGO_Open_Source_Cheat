@@ -27,6 +27,7 @@
     <ClCompile Include="source\Dependencies\imgui\imgui_widgets.cpp" />
     <ClCompile Include="source\dllmain.cpp" />
     <ClCompile Include="source\Hooks\Dx9Hook.cpp" />
+    <ClCompile Include="source\Interfaces\interfaceManager.cpp" />
     <ClCompile Include="source\menu.cpp" />
     <ClCompile Include="source\NetVars\NetVarManager\NetVarManager.cpp" />
   </ItemGroup>
@@ -43,9 +44,10 @@
     <ClInclude Include="source\Dependencies\imgui\imstb_truetype.h" />
     <ClInclude Include="source\Hooks\Dx9Hook.h" />
     <ClInclude Include="source\globals.h" />
+    <ClInclude Include="source\Interfaces\interfaceManager.h" />
+    <ClInclude Include="source\Interfaces\interfaces.h" />
     <ClInclude Include="source\menu.h" />
     <ClInclude Include="source\NetVars\entity.h" />
-    <ClInclude Include="source\NetVars\interfaces.h" />
     <ClInclude Include="source\NetVars\NetVarManager\NetVarManager.h" />
     <ClInclude Include="source\SDK\ClientInterface.h" />
     <ClInclude Include="source\SDK\datatable.h" />

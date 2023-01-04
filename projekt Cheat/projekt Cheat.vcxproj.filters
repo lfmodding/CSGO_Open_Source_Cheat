@@ -45,6 +45,9 @@
     <ClCompile Include="source\NetVars\NetVarManager\NetVarManager.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="source\Interfaces\interfaceManager.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\Hooks\Dx9Hook.h">
@@ -98,7 +101,10 @@
     <ClInclude Include="source\Dependencies\fnv.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="source\NetVars\interfaces.h">
+    <ClInclude Include="source\Interfaces\interfaceManager.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Interfaces\interfaces.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

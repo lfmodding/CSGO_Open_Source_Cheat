@@ -1,15 +1,13 @@
 #include "netvarManager.h"
 
 #include "..\..\SDK\ClientInterface.h"
-#include "..\interfaces.h"
 
+#include "..\..\Interfaces\interfaces.h"
 
 #include <format>
 
 void SetupNetvars()
 {
-	entityList = GetInterface<IClientEntityList>("VClientEntityList003", "client.dll");
-	client = GetInterface<IClient>("VClient018", "client.dll");
 	for (auto clientClass = client->GetAllClasses(); clientClass; clientClass = clientClass->next)
 		if (clientClass->recvTable)
 			Dump(clientClass->networkName, clientClass->recvTable);
@@ -42,7 +40,6 @@ void Dump(const char* baseClass, RecvTable* table, uint32_t offset)
 
 void netvarDev::PrintAllBaseClasses()
 {
-	client = GetInterface<IClient>("VClient018", "client.dll");
 	for (auto currnode = client->GetAllClasses(); currnode; currnode = currnode->next)
 		std::cout << currnode->networkName << std::endl;
 }
@@ -69,7 +66,6 @@ void netvarDev::RecursivePrintNetvars(const char* baseClass, RecvTable* recvTabl
 
 void netvarDev::PrintNetvarsOfBaseClass(const char* baseClass)
 {
-	client = GetInterface<IClient>("VClient018", "client.dll");
 	for (auto currnode = client->GetAllClasses(); currnode; currnode = currnode->next)
 		if (currnode->networkName == baseClass)
 			RecursivePrintNetvars(baseClass, currnode->recvTable);
@@ -77,7 +73,6 @@ void netvarDev::PrintNetvarsOfBaseClass(const char* baseClass)
 
 void netvarDev::PrintAllNetvarsAndBaseClasses()
 {
-	client = GetInterface<IClient>("VClient018", "client.dll");
 	for (auto currnode = client->GetAllClasses(); currnode; currnode = currnode->next)
 		RecursivePrintNetvars(currnode->networkName, currnode->recvTable);
 }
