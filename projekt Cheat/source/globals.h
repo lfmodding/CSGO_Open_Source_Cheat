@@ -1,10 +1,16 @@
 #pragma once
 #include <Windows.h>
+#include "Interfaces/interfaces.h"
 
 inline HMODULE dllModule;
 
 namespace systemMetrics
+{	
+	inline int screenWidth;
+	inline int screenHeight;
+}
+
+inline void initGlobals()
 {
-	inline int screenWidth = GetSystemMetrics(SM_CXSCREEN);
-	inline int screenHeight = GetSystemMetrics(SM_CYSCREEN);
+	engineClient->GetScreenSize(systemMetrics::screenWidth, systemMetrics::screenHeight);
 }
