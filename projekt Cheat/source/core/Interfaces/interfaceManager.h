@@ -5,8 +5,8 @@
 #include <format>
 #include <unordered_map>
 
-#include "..\..\SDK\ClientInterface.h"
-#include "..\..\SDK\EngineInterface.h"
+#include "..\..\SDK\interfaces\ClientInterface.h"
+#include "..\..\SDK\interfaces\EngineInterface.h"
 
 #include "..\..\Dependencies\fnv.h"
 #include "interfaces.h"

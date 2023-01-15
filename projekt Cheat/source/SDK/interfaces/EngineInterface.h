@@ -1,6 +1,6 @@
 #pragma once
-#include "math/matrix.h"
-#include "math/qangle.h"
+#include "../math/matrix.h"
+#include "../math/qangle.h"
 
 class IVEngineClient
 {

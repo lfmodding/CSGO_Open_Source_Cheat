@@ -1,5 +1,5 @@
 #pragma once
-#include "..\..\..\SDK\datatable.h"
+#include "..\..\..\SDK\recvDatatable.h"
 #include "..\..\..\Dependencies\fnv.h"
 
 
