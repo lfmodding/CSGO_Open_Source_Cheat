@@ -1,6 +1,10 @@
 #pragma once
-#include "..\playerClasses\CBaseEntity.h"
 #include "..\recvDatatable.h"
+
+// Forward declarations
+class IClientNetworkable;
+class IClientUnknown;
+class IClientEntity;
 
 
 //-----------------------------------------------------------------------------
@@ -17,7 +21,7 @@ public:
 	// NOTE: This function is only a convenience wrapper.
 	// It returns GetClientNetworkable( entnum )->GetIClientEntity().
 	virtual IClientEntity* GetClientEntity(int entnum) = 0;
-	virtual IClientEntity* GetClientEntityFromHandle(uint16_t hEnt) = 0;
+	virtual IClientEntity* GetClientEntityFromHandle( /*c_Base_Handle*/ uint16_t hEnt) = 0;
 
 	// Returns number of entities currently in use
 	virtual int					NumberOfEntities(bool bIncludeNonNetworkable) = 0;

@@ -53,8 +53,8 @@
     <ClInclude Include="source\core\NetVars\NetVarManager\NetVarManager.h" />
     <ClInclude Include="source\SDK\interfaces\ClientInterface.h" />
     <ClInclude Include="source\SDK\playerClasses\BaseHandle.h" />
+    <ClInclude Include="source\SDK\playerClasses\IClientEntity.h" />
     <ClInclude Include="source\SDK\playerClasses\CBaseEntity.h" />
-    <ClInclude Include="source\SDK\playerClasses\classes\entity.h" />
     <ClInclude Include="source\SDK\playerClasses\classes\player.h" />
     <ClInclude Include="source\SDK\playerClasses\IHandleEntity.h" />
     <ClInclude Include="source\SDK\playerClasses\IModelRender.h" />

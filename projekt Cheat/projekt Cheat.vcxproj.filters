@@ -95,15 +95,6 @@
     <ClInclude Include="source\menu.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="source\SDK\ClientInterface.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="source\SDK\datatable.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="source\core\NetVars\entity.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="source\core\NetVars\NetVarManager\NetVarManager.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
@@ -114,9 +105,6 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="source\core\Interfaces\interfaces.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
-    <ClInclude Include="source\SDK\EngineInterface.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="source\SDK\math\math.h">
@@ -135,6 +123,33 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="source\SDK\math\vec4.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SDK\interfaces\ClientInterface.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SDK\playerClasses\BaseHandle.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SDK\playerClasses\IClientEntity.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SDK\playerClasses\CBaseEntity.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SDK\playerClasses\classes\player.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SDK\playerClasses\IHandleEntity.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SDK\playerClasses\IModelRender.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SDK\recvDatatable.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SDK\interfaces\EngineInterface.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
